@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#e6ffe6; }
+    .form-box { width: 300px; margin: 50px auto; padding: 20px; background:#fff; border-radius:10px; box-shadow:0 0 10px #888; }
+    h2 { text-align:center; color:#006600; }
+    label { display:block; margin:10px 0 5px; }
+    input, select { width:100%; padding:8px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px; }
+    button { width:100%; padding:10px; background:#009933; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+    button:hover { background:#007a29; }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Login</h2>
+    <form>
+      <label>Username</label>
+      <input type="text" placeholder="Enter Username">
+     
+      <label>Password</label>
+      <input type="password" placeholder="Enter Password">
+     
+      <label>Role</label>
+      <select>
+        <option>Admin</option>
+        <option>Staff</option>
+        <option>Customer</option>
+      </select>
+     
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>

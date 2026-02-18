@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Form</title>
+  <style>
+    body { font-family:Arial; background:#f0fff0; }
+    .form-box { width:400px; margin:50px auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 0 10px #aaa; }
+    h2 { text-align:center; color:#006600; }
+    label { display:block; margin-top:10px; }
+    input, select { width:100%; padding:8px; margin-top:5px; border:1px solid #ccc; border-radius:5px; }
+    button { margin-top:15px; width:100%; padding:10px; background:#009933; color:#fff; border:none; border-radius:5px; }
+    button:hover { background:#007a29; }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Place Order</h2>
+    <form>
+      <label>Customer Name</label>
+      <input type="text" placeholder="Enter Customer Name">
+
+      <label>Plant</label>
+      <input type="text" placeholder="Enter Plant Name">
+
+      <label>Quantity</label>
+      <input type="number" placeholder="Enter Quantity">
+
+      <label>Order Date</label>
+      <input type="date">
+
+      <label>Status</label>
+      <select>
+        <option>Pending</option>
+        <option>Confirmed</option>
+        <option>Delivered</option>
+      </select>
+
+      <button type="submit">Save Order</button>
+    </form>
+  </div>
+</body>
+</html>
